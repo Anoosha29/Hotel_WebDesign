@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Haven | Luxury Beachfront Resort</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <nav class="navbar">
+        <a href="#" class="logo">AZURE SANDS</a>
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#dining">Dining</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="book-btn">Book Now</button>
+    </nav>
+
+    <!-- Hero Section with Image Background -->
+    <section class="hero">
+        <div class="hero-content">
+            
+        </div>
+    </section>
+    <!-- Floating Booking Button -->
+    <div class="floating-booking">
+        <i class="fas fa-calendar-alt"></i>
+    </div>
+
+    <!-- Welcome Section -->
+    <section class="welcome" id="welcome">
+        <div class="welcome-content">
+            <h2 class="section-title">Welcome to Paradise</h2>
+            <p class="welcome-text">
+                Nestled along the pristine coastline, Azure Haven offers an unparalleled luxury experience. 
+                Our resort blends contemporary elegance with the natural beauty of its surroundings, creating 
+                a sanctuary of relaxation and indulgence. Whether you're seeking a romantic getaway or a 
+                rejuvenating retreat, our world-class amenities and impeccable service will exceed your every 
+                expectation.
+            </p>
+            <button class="explore-btn">Explore Resort</button>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section class="rooms" id="rooms">
+        <div class="rooms-container">
+            <div class="rooms-title">
+                <h2 class="section-title">Luxury Accommodations</h2>
+            </div>
+            <div class="room-gallery">
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="data:image/jpeg;base64,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" alt="Ocean View Suite">
+                        <div class="price-tag">$499/night</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Ocean View Suite</h3>
+                        <p>Wake up to breathtaking views of the azure waters from your private balcony in our spacious ocean view suites.</p>
+                        <button class="view-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Beachfront Villa">
+                        <div class="price-tag">$799/night</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Beachfront Villa</h3>
+                        <p>Step directly onto the sand from your private beachfront villa, featuring a plunge pool and outdoor shower.</p>
+                        <button class="view-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Presidential Suite">
+                        <div class="price-tag">$1,299/night</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Presidential Suite</h3>
+                        <p>The epitome of luxury with panoramic ocean views, a private butler, and exclusive access to our VIP lounge.</p>
+                        <button class="view-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <div class="room-image">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=80" alt="Honeymoon Bungalow">
+                        <div class="price-tag">$899/night</div>
+                    </div>
+                    <div class="room-info">
+                        <h3>Honeymoon Bungalow</h3>
+                        <p>Romantic overwater bungalow with glass floor panels, private deck, and champagne breakfast included.</p>
+                        <button class="view-btn">View Details <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section class="amenities" id="amenities">
+        <div class="amenities-container">
+            <div class="amenities-title">
+                <h2 class="section-title">Resort Amenities</h2>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3>Private Beach</h3>
+                    <p>Half-mile of pristine white sand beach with exclusive cabanas and beach butler service.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Luxury Spa</h3>
+                    <p>World-class spa with ocean-view treatment rooms, hydrotherapy pools, and expert therapists.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Gourmet Dining</h3>
+                    <p>Five award-winning restaurants featuring local seafood and international cuisine.</p>
+                </div>
+                <div class="amenity-card">
+                    <div class="amenity-icon">
+                        <i class="fas fa-swimming-pool"></i>
+                    </div>
+                    <h3>Infinity Pools</h3>
+                    <p>Three-tiered infinity pools with swim-up bars and stunning ocean vistas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pool Section -->
+        <div class="pool-section">
+            <div class="pool-content">
+                <h2>Oceanfront Infinity Pool</h2>
+                <p>Our signature three-tiered infinity pool blends seamlessly with the horizon, offering breathtaking views of the ocean. Enjoy poolside service, private cabanas, and our swim-up bar serving crafted cocktails and light bites.</p>
+                <button class="hero-btn">View Gallery</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="reviews-container">
+            <div class="reviews-title">
+                <h2 class="section-title">Guest Experiences</h2>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Azure Haven exceeded all our expectations. The attention to detail, from the turndown service to the personalized welcome note, made our anniversary truly special. We'll definitely be back!"
+                    </p>
+                    <div class="guest-info">
+                        <div class="guest-photo">
+                            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+                        </div>
+                        <div class="guest-name">
+                            <h4>Sarah Johnson</h4>
+                            <p>New York, USA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The beachfront villa was absolutely stunning. Waking up to the sound of waves and stepping directly onto the sand was magical. The staff anticipated our every need before we even asked."
+                    </p>
+                    <div class="guest-info">
+                        <div class="guest-photo">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+                        </div>
+                        <div class="guest-name">
+                            <h4>Michael Chen</h4>
+                            <p>Toronto, Canada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "We've stayed at many luxury resorts, but Azure Haven stands out for its perfect balance of privacy and attentive service. The spa treatments were the best we've ever experienced."
+                    </p>
+                    <div class="guest-info">
+                        <div class="guest-photo">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Rodriguez">
+                        </div>
+                        <div class="guest-name">
+                            <h4>Emily Rodriguez</h4>
+                            <p>London, UK</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Our honeymoon at Azure Haven was perfect in every way. The overwater bungalow with glass floors was breathtaking, and the staff went above and beyond to make our stay memorable."
+                    </p>
+                    <div class="guest-info">
+                        <div class="guest-photo">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="David and Lisa Kim">
+                        </div>
+                        <div class="guest-name">
+                            <h4>David & Lisa Kim</h4>
+                            <p>Seoul, South Korea</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta" id="contact">
+        <div class="cta-container">
+            <div class="newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for exclusive offers, resort updates, and luxury travel inspiration.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" placeholder="Your email">
+                    </div>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Ready to book your luxury getaway or have questions about our resort? Our concierge team is available 24/7.</p>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div>
+                        <p>123 Oceanview Drive, Paradise Island</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <p>+1 (800) 555-OCEAN</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <p>reservations@azurehaven.com</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2023 Azure Haven Luxury Resort. All rights reserved.</p>
+        <p>Designed with <i class="fas fa-heart" style="color: #D4AF37;"></i> for luxury travelers</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Careers</a>
+        </div>
+    </footer>
+
+    <!-- GSAP & JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+  
+    <script src="script.js"></script>
+</body>
+</html>
